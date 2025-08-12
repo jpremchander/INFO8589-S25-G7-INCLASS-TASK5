@@ -1,0 +1,8 @@
+services:
+  paypal:
+    build: .
+    ports:
+      - 8084:8080
+    environment:
+      - PAYPAL_CLIENT_ID=<your client id>
+      - PAYPAL_CLIENT_SECRET=<your client secret>
