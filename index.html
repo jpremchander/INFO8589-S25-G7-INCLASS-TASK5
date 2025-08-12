@@ -11,6 +11,8 @@
     <p>Please keep reading for microfrontend docs:</p>
     <x-markdown2html src="date.md"></x-markdown2html>
     <x-markdown2html src="paypal.md"></x-markdown2html>
+    <!-- OTel must load before app scripts -->
+    <script src="otel-browser.js" type="module"></script>
     <script src="index.js" type="module"></script>
     <script src="https://custom-element.pages.dev/custom-element.js" crossorigin="anonymous"></script>
 </body>

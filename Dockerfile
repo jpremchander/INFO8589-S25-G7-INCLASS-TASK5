@@ -1,6 +1,6 @@
 FROM python:alpine
 
-EXPOSE 8083
+EXPOSE 8080
 
 WORKDIR /app
 

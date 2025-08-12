@@ -1,3 +1,13 @@
-fastapi[standard]
+fastapi
+uvicorn[standard]
 python-dotenv
 paypal-server-sdk==0.6.1
+httpx
+
+# OpenTelemetry (Python backend)
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+opentelemetry-semantic-conventions
+opentelemetry-instrumentation-fastapi
+opentelemetry-instrumentation-requests

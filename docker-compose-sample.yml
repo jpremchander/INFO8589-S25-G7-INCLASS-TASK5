@@ -6,3 +6,6 @@ services:
     environment:
       - PAYPAL_CLIENT_ID=<your client id>
       - PAYPAL_CLIENT_SECRET=<your client secret>
+  - OTEL_EXPORTER_OTLP_ENDPOINT=https://<your-otel-domain> # Cloudflare tunnel -> TrueNAS collector
+  - OTEL_SERVICE_NAME=paypal-demo-fastapi
+  - OTEL_BROWSER_SERVICE_NAME=paypal-demo-browser
